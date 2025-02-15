@@ -4,13 +4,13 @@ language "C++"
 cppdialect "C++11"
 staticruntime "off"
 
-targetdir("bin/" .. outputdir .. "/{prj.name}")
-objdir("bin-int/" .. outputdir .. "/{prj.name}")
+targetdir("bin/%{prj.name}")
+objdir("bin-int/%{prj.name}")
 
 files
 {
     "src/**.h",
-    "src/**.cpp",
+    "src/**.c",
     "include/**.h",
 }
 

@@ -1,4 +1,6 @@
 build/
+bin/
+bin-int/
 imgui.ini
 settings.ini
 .vscode/
